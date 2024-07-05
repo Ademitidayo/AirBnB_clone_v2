@@ -2,6 +2,8 @@
 import unittest
 import MySQLdb
 import os
+from models.state import State
+from models import storage
 
 class TestDBStorage(unittest.TestCase):
     def setUp(self):
@@ -33,4 +35,3 @@ class TestDBStorage(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
